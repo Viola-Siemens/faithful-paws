@@ -182,12 +182,13 @@ To transform Minecraft's pets from simple companions into unique, lifelong partn
 - **Description:** New interactions to make pet ownership more engaging.
 - **Features:**
   - **Pet Toys:** Increase happiness. Pets with high happiness get small buffs (e.g., increased damage, better loot finding).
+  
   | Registry Name of Dog Toys   | Ingredients        | Durability | Difficulty | Improvement | Bonus\*                     |
   | --------------------------- | ------------------ | ---------- | ---------- | ----------- | --------------------------- |
   | **faithful_paws:hemp_rope** | string, slime_ball | 15         | ★☆☆☆☆      | ★☆☆☆☆       | (*active* AND *curious*) +2 |
   | **faithful_paws:plush_toy** | wool               | 158        | ★★★☆☆      | ★★★★☆       | *quiet* +2                  |
   | **faithful_paws:frisbee**   | leather            | 245        | ★★★☆☆      | ★★★★☆       | *sporty* +3                 |
-
+  
   | Registry Name of Cat Toys    | Ingredients                              | Durability        | Difficulty | Improvement | Bonus\*      |
   | ---------------------------- | ---------------------------------------- | ----------------- | ---------- | ----------- | ------------ |
   | **faithful_paws:cat_teaser** | stick, slime_ball, feather, copper_ingot | 86                | ★★☆☆☆      | ★★★☆☆       | *curious* +1 |
@@ -198,6 +199,7 @@ To transform Minecraft's pets from simple companions into unique, lifelong partn
   \*Tags are indicated in *Italic* style and namespace `faithful_paws` are omitted.
   
   - **Accessories:** Craftable and cosmetic items that can be equipped.
+  
   | Registry Name                         | Ingredient       | Equipment Slot\* | Effect                                                       |
   | ------------------------------------- | ---------------- | ---------------- | ------------------------------------------------------------ |
   | **faithful_paws:elizabethan_collars** | paper, string    | Head             | 10% chance each tick to reduce remaining recovering time after a treatment by 1 tick. |
@@ -240,6 +242,7 @@ To transform Minecraft's pets from simple companions into unique, lifelong partn
 - **Features:**
   - **JEI:** Full support for viewing recipes for items.
   - **Jade:**
+  
   | Information     | Pet owner* | Normal player* | Creative player/Operator* |
   | --------------- | ---------- | -------------- | ------------------------- |
   | Pet name        | ✔          | ❌              | ✔                         |
