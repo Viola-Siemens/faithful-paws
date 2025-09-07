@@ -1,0 +1,67 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36" version="28.2.0">
+  <diagram name="第 1 页" id="eiHyQJ5SLWpOqTaKdxRR">
+    <mxGraphModel dx="888" dy="470" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="nfV0hGN83DpjORrg0mmt-1" value="Faithful Paws" style="swimlane;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry width="540" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="nfV0hGN83DpjORrg0mmt-2" value="Genetics &amp;amp; Traits System" style="swimlane;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="nfV0hGN83DpjORrg0mmt-1" vertex="1">
+          <mxGeometry x="20" y="40" width="240" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="nfV0hGN83DpjORrg0mmt-7" value="Genetics System" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=10;" parent="nfV0hGN83DpjORrg0mmt-2" vertex="1">
+          <mxGeometry x="10" y="40" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nfV0hGN83DpjORrg0mmt-8" value="Traits System" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=10;" parent="nfV0hGN83DpjORrg0mmt-2" vertex="1">
+          <mxGeometry x="130" y="40" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nfV0hGN83DpjORrg0mmt-9" value="Disease System" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=10;" parent="nfV0hGN83DpjORrg0mmt-2" vertex="1">
+          <mxGeometry x="10" y="100" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nfV0hGN83DpjORrg0mmt-13" value="Variants Expansion" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=10;" parent="nfV0hGN83DpjORrg0mmt-2" vertex="1">
+          <mxGeometry x="130" y="100" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nfV0hGN83DpjORrg0mmt-5" value="Pet Care &amp;amp; Gameplay" style="swimlane;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="nfV0hGN83DpjORrg0mmt-1" vertex="1">
+          <mxGeometry x="280" y="40" width="240" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="nfV0hGN83DpjORrg0mmt-11" value="Pet Toys" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=10;" parent="nfV0hGN83DpjORrg0mmt-5" vertex="1">
+          <mxGeometry x="10" y="40" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nfV0hGN83DpjORrg0mmt-12" value="Medical Kits" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=10;" parent="nfV0hGN83DpjORrg0mmt-5" vertex="1">
+          <mxGeometry x="130" y="100" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nfV0hGN83DpjORrg0mmt-14" value="Grooming Kit" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=10;" parent="nfV0hGN83DpjORrg0mmt-5" vertex="1">
+          <mxGeometry x="10" y="100" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nfV0hGN83DpjORrg0mmt-15" value="Accessories" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=10;" parent="nfV0hGN83DpjORrg0mmt-5" vertex="1">
+          <mxGeometry x="130" y="40" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nfV0hGN83DpjORrg0mmt-6" value="World Generation" style="swimlane;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="nfV0hGN83DpjORrg0mmt-1" vertex="1">
+          <mxGeometry x="20" y="220" width="240" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="nfV0hGN83DpjORrg0mmt-16" value="Structures" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=10;" parent="nfV0hGN83DpjORrg0mmt-6" vertex="1">
+          <mxGeometry x="10" y="40" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nfV0hGN83DpjORrg0mmt-17" value="Stray Cats &amp;amp; Dogs" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=10;" parent="nfV0hGN83DpjORrg0mmt-6" vertex="1">
+          <mxGeometry x="130" y="40" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nfV0hGN83DpjORrg0mmt-22" value="Features" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=10;" parent="nfV0hGN83DpjORrg0mmt-6" vertex="1">
+          <mxGeometry x="10" y="100" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nfV0hGN83DpjORrg0mmt-18" value="Mod Compatibility" style="swimlane;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="nfV0hGN83DpjORrg0mmt-1" vertex="1">
+          <mxGeometry x="280" y="220" width="240" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="nfV0hGN83DpjORrg0mmt-19" value="Jade🔍" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=10;" parent="nfV0hGN83DpjORrg0mmt-18" vertex="1">
+          <mxGeometry x="10" y="40" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nfV0hGN83DpjORrg0mmt-20" value="Just Enough Items" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=10;" parent="nfV0hGN83DpjORrg0mmt-18" vertex="1">
+          <mxGeometry x="130" y="40" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nfV0hGN83DpjORrg0mmt-21" value="Patchouli" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=10;" parent="nfV0hGN83DpjORrg0mmt-18" vertex="1">
+          <mxGeometry x="10" y="100" width="100" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
