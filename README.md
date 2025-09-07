@@ -1,14 +1,15 @@
 # Product Requirements Document (PRD): Faithful Paws
 
 **Version:** 0.0.1+1.21.1
+
 **Date:** 2025/09/06
+
 **Author:** Liu Dongyu, Author1, Author2, ...
+
 **Status:**
 
 - [x] Draft
-
 - [ ] In Review
-
 - [ ] Approved
 
 **Issue Tracker:** [https://github.com/Viola-Siemens/faithful-paws/issues](https://github.com/Viola-Siemens/faithful-paws/issues)
@@ -179,17 +180,14 @@ To transform Minecraft's pets from simple companions into unique, lifelong partn
 #### 4.2. Pet Care & Gameplay
 
 - **Description:** New interactions to make pet ownership more engaging.
-
 - **Features:**
-  
   - **Pet Toys:** Increase happiness. Pets with high happiness get small buffs (e.g., increased damage, better loot finding).
-  
   | Registry Name of Dog Toys   | Ingredients        | Durability | Difficulty | Improvement | Bonus\*                     |
   | --------------------------- | ------------------ | ---------- | ---------- | ----------- | --------------------------- |
   | **faithful_paws:hemp_rope** | string, slime_ball | 15         | ★☆☆☆☆      | ★☆☆☆☆       | (*active* AND *curious*) +2 |
   | **faithful_paws:plush_toy** | wool               | 158        | ★★★☆☆      | ★★★★☆       | *quiet* +2                  |
   | **faithful_paws:frisbee**   | leather            | 245        | ★★★☆☆      | ★★★★☆       | *sporty* +3                 |
-  
+
   | Registry Name of Cat Toys    | Ingredients                              | Durability        | Difficulty | Improvement | Bonus\*      |
   | ---------------------------- | ---------------------------------------- | ----------------- | ---------- | ----------- | ------------ |
   | **faithful_paws:cat_teaser** | stick, slime_ball, feather, copper_ingot | 86                | ★★☆☆☆      | ★★★☆☆       | *curious* +1 |
@@ -200,7 +198,6 @@ To transform Minecraft's pets from simple companions into unique, lifelong partn
   \*Tags are indicated in *Italic* style and namespace `faithful_paws` are omitted.
   
   - **Accessories:** Craftable and cosmetic items that can be equipped.
-  
   | Registry Name                         | Ingredient       | Equipment Slot\* | Effect                                                       |
   | ------------------------------------- | ---------------- | ---------------- | ------------------------------------------------------------ |
   | **faithful_paws:elizabethan_collars** | paper, string    | Head             | 10% chance each tick to reduce remaining recovering time after a treatment by 1 tick. |
@@ -215,7 +212,6 @@ To transform Minecraft's pets from simple companions into unique, lifelong partn
 #### 4.3. World Generation
 
 - **Description:** Adding the mod's content naturally into the world.
-
 - **Features:**
   
   - **Structures:** Mod structures can be founded in the villages and outdoors.
@@ -242,10 +238,8 @@ To transform Minecraft's pets from simple companions into unique, lifelong partn
 - **Description:** Ensuring the mod works well with others.
 - **Target Minecraft Version:** 1.21.1 NeoForge
 - **Features:**
-
   - **JEI:** Full support for viewing recipes for items.
   - **Jade:**
-
   | Information     | Pet owner* | Normal player* | Creative player/Operator* |
   | --------------- | ---------- | -------------- | ------------------------- |
   | Pet name        | ✔          | ❌              | ✔                         |
