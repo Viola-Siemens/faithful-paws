@@ -164,6 +164,7 @@ To transform Minecraft's pets from simple companions into unique, lifelong partn
 
 
 
+
 ### **4. Core Features & Modules**
 
 ![Product Architecture Diagram](docs/Product Architecture Diagram.png)
@@ -171,9 +172,24 @@ To transform Minecraft's pets from simple companions into unique, lifelong partn
 #### 4.1. Genetics & Traits System
 
 - **Description:** The core mechanism that drives variety and progression.
+
 - **Features:**
+  
   - **Genetic Systems:** Puppies/kittens inherit genes from their parents, which express traits. Small chance for a completely new gene to appear when breeding.
+  
+  | Dog Genes             | Category      | Traits                                                       | Frequency                                                    |                                                              | Notes |
+  | --------------------- | ------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ----- |
+  | $F$/$f$               | Leg Length    | $ff$ - long legs<br />$F\_$ - short legs                     | Native dog: $F$ 10%, $f$ 90%<br />Corgi, Dachshund, Basset hound: $F$ 90%, $f$ 10%<br />Coton de Tulear: $F$ 50%, $f$ 50% | <img src="https://cdn-ilbfemn.nitrocdn.com/SMbNqQVgokVBOKPHqgPbhvowhPKWFJah/assets/images/optimized/rev-f1db8fa/canna-pet.com/wp-content/uploads/2016/01/coton-de-tulear.jpg" style="zoom:50%;" /><br />A dog with short legs (Coton de Tulear) | FGF4  |
+  | $A_Y$/$A_w$/$a$       | Fur Color     | $A_Y\_$ - produces enzymes that convert melanin into pheomelanin to dye dogs<br />$A_wA_w$ & $A_wa$ - produces less enzymes, which dyes dogs into sesame color<br />$aa$ - melanin will not be converted into pheomelanin so dogs are black at first | Native dog: $A_Y$ 12%, $A_w$ 2%, $a$ 86%                     | <img src="https://static.wixstatic.com/media/b0924a_c74072b773404a1e90fc6beb98e0d58a~mv2.jpg" style="max-height: 200px"/><br />A Brown/Black/Sesame/White Dog (Shiba) | ASIP  |
+  | $D$/$d$<br />$G$/$g$  | Fur Color     | $dd$ - maintains the fur color generated above.<br />$D\_gg$/$ddG\_$ - produces enzymes that dilutes melanin/pheomelanin which dyes dogs from black/brown into blue/lilac color.<br />$D\_G\_$ - dyes dogs from black/brown into cream/white color. | Native dog: $DG$ 18%, $Dg$ 4%, $dG$ 8%, $dg$ 70%             | <img src="https://coatsandcolors.com/wp-content/uploads/2024/06/Lilac-Sable_-comparison-lilac-seal.jpg" style="max-height: 200px"/><br />A dog in lilac color |       |
+  | $L$/$l$               | Fur Length    | $L\_$ - short hair<br />$ll$ - long hair                     | Native dog: $L$ 25%, $l$ 75%<br />Golden Retriever, Poodle, Samoyed, Alaskan Malamute, Bernese Mountain Dog: $L$ 0.5%, $l$ 99.5% | <img src="https://www.hudsonanimalhospitalnyc.com/wp-content/uploads/2024/11/golden-retriever-dog-breed-info.jpg" style="max-height: 200px"/><br />A dog with long hair (Golden Retriever) | FGF5  |
+  | $C$/$c$               | Curl          | $C\_$ - curl hair (only available with long hair)<br />$cc$ - straight hair | Native dog: $C$ 25%, $c$ 75%                                 | <img src="https://poodlecenter.com/wp-content/uploads/2023/01/pexels-steven-van-elk-13632036-1-1024x682.webp" style="max-height: 200px"/><br />A curly hair dog |       |
+  | Four pairs of alleles | Size of shape | 0~4 dominant gene: tiny, small, medium small, medium, large<br />One of them is "gluttony gene", if dominant, the dog will be easy to feel hungry. | -                                                            | -                                                            |       |
+  | $E$/$e$               | Ear           | $E\_$ - Prick Ear<br />$ee$ - Drop Ear                       | Native dog: $L$ 65%, $l$ 35%                                 | <img src="https://image.petmd.com/files/styles/978x550/public/2025-02/papillon-dog.jpg" style="max-height: 200px"/><br />A dog with prick ear (Papillon)<br /><img src="https://www.bil-jac.com/wp-content/uploads/2024/12/beagle2-184102750.webp" style="max-height: 200px"/><br />A dog with drop ear (Beagle) | MSRB3 |
+  | $S$/$s$               | Snout Length  | $S\_$ - normal snout<br />$ss$ - flat face                   | Native dog: $S$ 70%, $s$ 30%<br />Pugs, Bulldogs, Boxers: $S$ 1%, $s$ 99% | <img src="https://k9uchicago.com/wp-content/uploads/2021/09/Why-Pugs-Make-Great_Pets.jpg" style="max-height: 200px"/><br />Two dogs with flat face (Pug) | BMP3  |
+  
   - **Traits System:** Coat color, body size, leg length, health.
+  
   - **Disease System:** Dermatitis (Cross infectious), Distemper (infectious), Enteritis, Indigestion, Parasitosis.
   - **Variants Expansion:** Various models and textures for dogs and cats.
 
@@ -183,13 +199,13 @@ To transform Minecraft's pets from simple companions into unique, lifelong partn
 - **Features:**
   - **Pet Toys:** Increase happiness. Pets with high happiness get small buffs (e.g., increased damage, better loot finding).
   
-  | Registry Name of Dog Toys   | Ingredients        | Durability | Difficulty | Improvement | Bonus\*                     |
+  | Registry Name of Dog Toy    | Ingredients        | Durability | Difficulty | Improvement | Bonus\*                     |
   | --------------------------- | ------------------ | ---------- | ---------- | ----------- | --------------------------- |
   | **faithful_paws:hemp_rope** | string, slime_ball | 15         | ★☆☆☆☆      | ★☆☆☆☆       | (*active* AND *curious*) +2 |
   | **faithful_paws:plush_toy** | wool               | 158        | ★★★☆☆      | ★★★★☆       | *quiet* +2                  |
   | **faithful_paws:frisbee**   | leather            | 245        | ★★★☆☆      | ★★★★☆       | *sporty* +3                 |
   
-  | Registry Name of Cat Toys    | Ingredients                              | Durability        | Difficulty | Improvement | Bonus\*      |
+  | Registry Name of Cat Toy     | Ingredients                              | Durability        | Difficulty | Improvement | Bonus\*      |
   | ---------------------------- | ---------------------------------------- | ----------------- | ---------- | ----------- | ------------ |
   | **faithful_paws:cat_teaser** | stick, slime_ball, feather, copper_ingot | 86                | ★★☆☆☆      | ★★★☆☆       | *curious* +1 |
   | **faithful_paws:cat_box**    | chest, stick                             | (placed as block) | ★★☆☆☆      | ★★★☆☆       | *quiet* +2   |
@@ -259,10 +275,10 @@ To transform Minecraft's pets from simple companions into unique, lifelong partn
 
 <table>
     <tr>
-        <td>Module</td>
-        <td>Sub-Module</td>
-        <td>Priority</td>
-        <td>Status</td>
+        <th>Module</th>
+        <th>Sub-Module</th>
+        <th>Priority</th>
+        <th>Status</th>
     </tr>
     <tr>
         <td rowspan="4">Genetics &amp; Traits System</td>
@@ -339,6 +355,7 @@ To transform Minecraft's pets from simple companions into unique, lifelong partn
         <td><input type="checkbox"/></td>
     </tr>
 </table>
+
 
 ### **6. Technical Architecture**
 
